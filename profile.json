@@ -1,5 +1,6 @@
 {
   "username": "Yong-Q",
+  "orcid": "https://orcid.org/0009-0001-7337-7357",
   "tagline": "Porous materials · Classical DFT · Molecular simulation",
   "intro": "I work on adsorption and molecular transport in porous materials, using classical density functional theory (cDFT), molecular simulation, and machine learning.",
   "keywords": ["Porous materials", "Classical DFT", "Molecular simulation", "AI for Science"],
@@ -11,8 +12,7 @@
   "resources": [
     {"label": "Chemical Science (2025)", "url": "https://doi.org/10.1039/D5SC04332H"},
     {"label": "Zenodo dataset", "url": "https://doi.org/10.5281/zenodo.14910258"},
-    {"label": "Publications on ResearchGate", "url": "https://www.researchgate.net/profile/Yong-Qiu-8/research"},
-    {"label": "ORCID", "url": "https://orcid.org/0009-0001-7337-7357"}
+    {"label": "ResearchGate", "url": "https://www.researchgate.net/profile/Yong-Qiu-8/research"}
   ],
   "exclude": ["Yong-Q", "Yong-Q.github.io"],
   "recent_limit": 3

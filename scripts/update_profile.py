@@ -131,13 +131,16 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.m
 
 
 def render_readme(model, original):
-    rows = [START, f'## {markdown(model["username"])}', '', model["intro"], '', '### Projects', '']
+    heading = f'## {markdown(model["username"])}'
+    if model.get("orcid"):
+        heading += f' &nbsp; <a href="{escaped(model["orcid"])}" title="View ORCID record"><img src="assets/orcid-id.gif" alt="ORCID iD" width="16" height="16"></a>'
+    rows = [START, heading, '', model["intro"], '', '### Projects', '']
     for project in model["featured"]:
         summary = project.get("profile_summary", project["summary"])
         rows.append(f'- **[{markdown(project["title"])}]({project["html_url"]})** — {markdown(summary)}')
     rows.extend(['', '### Paper & data', '',
                  ' · '.join(f'[{markdown(r["label"])}]({r["url"]})' for r in model["resources"]), '',
-                 '<details>', '<summary>Recently updated</summary>', ''])
+                 '---', '', '<details>', '<summary>Recently updated</summary>', ''])
     for item in model["recent"]:
         focus = item.get("description") or next((p["summary"] for p in model["featured"] if p["name"] == item["name"]), None) or item.get("language") or "Research code"
         rows.append(f'- [{markdown(item["name"])}]({item["html_url"]}) · {(item.get("pushed_at") or "")[:10]} — {markdown(focus)}')

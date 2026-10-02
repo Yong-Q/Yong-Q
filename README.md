@@ -1,5 +1,5 @@
 <!-- PROFILE:START -->
-## Yong-Q
+## Yong-Q &nbsp; <a href="https://orcid.org/0009-0001-7337-7357" title="View ORCID record"><img src="assets/orcid-id.gif" alt="ORCID iD" width="16" height="16"></a>
 
 I work on adsorption and molecular transport in porous materials, using classical density functional theory (cDFT), molecular simulation, and machine learning.
 
@@ -11,7 +11,9 @@ I work on adsorption and molecular transport in porous materials, using classica
 
 ### Paper & data
 
-[Chemical Science (2025)](https://doi.org/10.1039/D5SC04332H) · [Zenodo dataset](https://doi.org/10.5281/zenodo.14910258) · [Publications on ResearchGate](https://www.researchgate.net/profile/Yong-Qiu-8/research) · [ORCID](https://orcid.org/0009-0001-7337-7357)
+[Chemical Science (2025)](https://doi.org/10.1039/D5SC04332H) · [Zenodo dataset](https://doi.org/10.5281/zenodo.14910258) · [ResearchGate](https://www.researchgate.net/profile/Yong-Qiu-8/research)
+
+---
 
 <details>
 <summary>Recently updated</summary>

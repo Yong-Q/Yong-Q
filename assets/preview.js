@@ -21,6 +21,7 @@
   function render(model) {
     currentModel = model;
     document.querySelector('.intro').textContent = model.intro;
+    if(model.orcid) $('orcid').href = model.orcid;
     $('keywords').replaceChildren(...model.keywords.map(k => node('span', k)));
     $('projects').replaceChildren(...model.featured.map(p => {
       const card = node('li', undefined, 'project');
@@ -29,8 +30,9 @@
       card.append(title, document.createTextNode(' — '), node('span',p.profile_summary || p.summary,'summary'));
       return card;
     }));
-    $('resource-links').replaceChildren(...model.resources.map(r => {
-      const a = node('a'); a.href = r.url; a.append(node('span',r.label), node('span','↗')); return a;
+    $('resource-links').replaceChildren(...model.resources.flatMap((r,i) => {
+      const a = node('a',r.label); a.href = r.url;
+      return i ? [node('span','·','separator'),a] : [a];
     }));
     $('recent-projects').replaceChildren(...model.recent.map(r => {
       const a = node('a', undefined, 'recent-project'); a.href = projectLink(r.name);
