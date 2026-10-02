@@ -1,0 +1,107 @@
+{
+  "username": "Yong-Q",
+  "tagline": "Porous materials · Classical DFT · Molecular simulation",
+  "intro": "I explore porous materials through classical density functional theory (cDFT), molecular simulation, machine learning, and AI-assisted research workflows.",
+  "keywords": [
+    "Porous materials",
+    "Classical DFT",
+    "Molecular simulation",
+    "AI for Science"
+  ],
+  "featured": [
+    {
+      "name": "Reverse-design-of-porous-materials",
+      "description": "Combine machine learning algorithm to reverse design materials, from function to material exploration",
+      "language": "Python",
+      "pushed_at": "2025-08-30T00:26:14Z",
+      "html_url": "https://github.com/Yong-Q/Reverse-design-of-porous-materials",
+      "repo": "Reverse-design-of-porous-materials",
+      "title": "Porous materials design",
+      "category": "MATERIALS DISCOVERY",
+      "summary": "Combine machine learning algorithm to reverse design materials, from function to material exploration",
+      "tags": [
+        "HOF",
+        "Inverse design",
+        "Machine learning"
+      ]
+    },
+    {
+      "name": "Sep-Pilot",
+      "description": null,
+      "language": "Python",
+      "pushed_at": "2026-09-20T07:27:51Z",
+      "html_url": "https://github.com/Yong-Q/Sep-Pilot",
+      "repo": "Sep-Pilot",
+      "title": "Sep-Pilot",
+      "category": "RESEARCH AUTOMATION",
+      "summary": "An AI research copilot for planning and tracking molecular simulation workflows.",
+      "tags": [
+        "Scientific agents",
+        "Simulation",
+        "HPC"
+      ]
+    },
+    {
+      "name": "String_Vext",
+      "description": null,
+      "language": "Python",
+      "pushed_at": "2026-10-01T07:46:41Z",
+      "html_url": "https://github.com/Yong-Q/String_Vext",
+      "repo": "String_Vext",
+      "title": "String_Vext",
+      "category": "MOLECULAR TRANSPORT",
+      "summary": "Diffusion pathway optimization and orientation-resolved energy landscapes.",
+      "tags": [
+        "Diffusion",
+        "Energy landscapes",
+        "GPU / CPU"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "label": "Related paper · Chemical Science (2025)",
+      "url": "https://doi.org/10.1039/D5SC04332H"
+    },
+    {
+      "label": "Research dataset · Zenodo",
+      "url": "https://doi.org/10.5281/zenodo.14910258"
+    }
+  ],
+  "exclude": [
+    "Yong-Q",
+    "Yong-Q.github.io"
+  ],
+  "recent_limit": 4,
+  "recent": [
+    {
+      "name": "String_Vext",
+      "description": null,
+      "language": "Python",
+      "pushed_at": "2026-10-01T07:46:41Z",
+      "html_url": "https://github.com/Yong-Q/String_Vext"
+    },
+    {
+      "name": "Sep-Pilot",
+      "description": null,
+      "language": "Python",
+      "pushed_at": "2026-09-20T07:27:51Z",
+      "html_url": "https://github.com/Yong-Q/Sep-Pilot"
+    },
+    {
+      "name": "DFT",
+      "description": "Code repository",
+      "language": "C++",
+      "pushed_at": "2026-05-16T07:28:32Z",
+      "html_url": "https://github.com/Yong-Q/DFT"
+    },
+    {
+      "name": "Reverse-design-of-porous-materials",
+      "description": "Combine machine learning algorithm to reverse design materials, from function to material exploration",
+      "language": "Python",
+      "pushed_at": "2025-08-30T00:26:14Z",
+      "html_url": "https://github.com/Yong-Q/Reverse-design-of-porous-materials"
+    }
+  ],
+  "activity_date": "2026-10-01"
+}

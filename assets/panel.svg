@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="850" viewBox="0 0 960 850" role="img" aria-labelledby="title desc">
+<title id="title">Yong-Q — computational porous materials and classical DFT</title>
+<desc id="desc">Research profile featuring materials inverse design, scientific workflow automation and molecular transport.</desc>
+<defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0e988d" stop-opacity=".09"/><stop offset="1" stop-color="#578ef5" stop-opacity=".025"/></linearGradient></defs>
+<style>
+svg{--bg:#fff;--fg:#122c35;--muted:#59717b;--line:#dce9eb;--card:#f6fafb;--accent:#087f78;--tag:#e9f5f3;--art:#128b8b}
+.bg{fill:var(--bg)}.fg{fill:var(--fg)}.muted{fill:var(--muted)}.accent{fill:var(--accent)}.line{stroke:var(--line)}.card{fill:var(--card);stroke:var(--line)}.tag{fill:var(--tag)}.art{stroke:var(--art);fill:none}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.mono{font-family:ui-monospace,Consolas,monospace}.label{font-size:11px;letter-spacing:2px;font-weight:600}.title{font-size:25px;font-weight:650}a{text-decoration:none}
+
+@media(prefers-color-scheme:dark){svg{--bg:#0c1720;--fg:#e6f0f3;--muted:#9ab0bb;--line:#263b46;--card:#12222d;--accent:#66d8c7;--tag:#1b353e;--art:#59b9bd}}
+</style>
+<rect class="bg" width="960" height="850" rx="22"/>
+<rect x=".5" y=".5" width="959" height="849" rx="22" fill="none" class="line"/>
+<rect x="1" y="1" width="958" height="303" rx="22" fill="url(#wash)"/>
+<text x="40" y="42" class="accent label" font-size="15" >COMPUTATIONAL MATERIALS / RESEARCH &amp; CODE</text>
+<text x="40" y="105" class="fg" font-size="54" font-weight="700" letter-spacing="-2">Yong-Q</text>
+<text x="42" y="141" class="fg" font-size="20" >From porous structures to molecular behavior.</text>
+<text x="42" y="179" class="muted" font-size="15" >Classical density functional theory (cDFT)</text>
+<text x="42" y="203" class="muted" font-size="15" >Molecular simulation · Machine learning · AI-assisted research</text>
+<rect x="42" y="239" width="131.2" height="29" rx="14.5" class="tag"/>
+<text x="54" y="258" class="accent" font-size="12" >Porous materials</text>
+<rect x="181.2" y="239" width="111.10000000000001" height="29" rx="14.5" class="tag"/>
+<text x="193.2" y="258" class="accent" font-size="12" >Classical DFT</text>
+<rect x="300.3" y="239" width="158.0" height="29" rx="14.5" class="tag"/>
+<text x="312.3" y="258" class="accent" font-size="12" >Molecular simulation</text>
+<rect x="466.3" y="239" width="117.8" height="29" rx="14.5" class="tag"/>
+<text x="478.3" y="258" class="accent" font-size="12" >AI for Science</text>
+<polygon points="804.0,103.0 785.0,135.9 747.0,135.9 728.0,103.0 747.0,70.1 785.0,70.1" class="art" stroke-width="1.2" opacity=".32"/>
+<circle cx="804.0" cy="103.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="785.0" cy="135.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="747.0" cy="135.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="728.0" cy="103.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="747.0" cy="70.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="785.0" cy="70.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<polygon points="860.0,136.0 841.0,168.9 803.0,168.9 784.0,136.0 803.0,103.1 841.0,103.1" class="art" stroke-width="1.2" opacity=".32"/>
+<circle cx="860.0" cy="136.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="841.0" cy="168.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="803.0" cy="168.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="784.0" cy="136.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="803.0" cy="103.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="841.0" cy="103.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<polygon points="804.0,169.0 785.0,201.9 747.0,201.9 728.0,169.0 747.0,136.1 785.0,136.1" class="art" stroke-width="1.2" opacity=".32"/>
+<circle cx="804.0" cy="169.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="785.0" cy="201.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="747.0" cy="201.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="728.0" cy="169.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="747.0" cy="136.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="785.0" cy="136.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<polygon points="916.0,103.0 897.0,135.9 859.0,135.9 840.0,103.0 859.0,70.1 897.0,70.1" class="art" stroke-width="1.2" opacity=".32"/>
+<circle cx="916.0" cy="103.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="897.0" cy="135.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="859.0" cy="135.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="840.0" cy="103.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="859.0" cy="70.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="897.0" cy="70.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<polygon points="916.0,169.0 897.0,201.9 859.0,201.9 840.0,169.0 859.0,136.1 897.0,136.1" class="art" stroke-width="1.2" opacity=".32"/>
+<circle cx="916.0" cy="169.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="897.0" cy="201.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="859.0" cy="201.9" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="840.0" cy="169.0" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="859.0" cy="136.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<circle cx="897.0" cy="136.1" r="3.1" fill="var(--art)" opacity=".6"/>
+<path d="M729 207 C758 210 771 142 806 157 S855 212 910 192" class="art" stroke-width="2" opacity=".6"/>
+<text x="40" y="319" class="muted label" font-size="15" >SELECTED PROJECTS</text>
+<a href="https://github.com/Yong-Q/Reverse-design-of-porous-materials"><rect x="32" y="338" width="896" height="120" rx="13" class="card"/>
+<text x="52" y="366" class="accent mono" font-size="12" >01</text>
+<text x="89" y="366" class="muted label" font-size="15" >MATERIALS DISCOVERY</text>
+<text x="52" y="396" class="fg title" font-size="15" >Porous materials design</text>
+<text x="888" y="396" class="accent" font-size="25" >↗</text>
+<text x="52" y="421" class="muted" font-size="14" >Combine machine learning algorithm to reverse design materials, from function to material exploration</text>
+<text x="52" y="444" class="accent mono" font-size="11" >HOF / Inverse design / Machine learning</text>
+</a>
+<a href="https://github.com/Yong-Q/Sep-Pilot"><rect x="32" y="474" width="896" height="120" rx="13" class="card"/>
+<text x="52" y="502" class="accent mono" font-size="12" >02</text>
+<text x="89" y="502" class="muted label" font-size="15" >RESEARCH AUTOMATION</text>
+<text x="52" y="532" class="fg title" font-size="15" >Sep-Pilot</text>
+<text x="888" y="532" class="accent" font-size="25" >↗</text>
+<text x="52" y="557" class="muted" font-size="14" >An AI research copilot for planning and tracking molecular simulation workflows.</text>
+<text x="52" y="580" class="accent mono" font-size="11" >Scientific agents / Simulation / HPC</text>
+</a>
+<a href="https://github.com/Yong-Q/String_Vext"><rect x="32" y="610" width="896" height="120" rx="13" class="card"/>
+<text x="52" y="638" class="accent mono" font-size="12" >03</text>
+<text x="89" y="638" class="muted label" font-size="15" >MOLECULAR TRANSPORT</text>
+<text x="52" y="668" class="fg title" font-size="15" >String_Vext</text>
+<text x="888" y="668" class="accent" font-size="25" >↗</text>
+<text x="52" y="693" class="muted" font-size="14" >Diffusion pathway optimization and orientation-resolved energy landscapes.</text>
+<text x="52" y="716" class="accent mono" font-size="11" >Diffusion / Energy landscapes / GPU / CPU</text>
+</a>
+<text x="40" y="778" class="muted label" font-size="15" >RESEARCH RESOURCES</text>
+<text x="40" y="811" class="fg" font-size="16" >Related paper · Chemical Science (2025)</text>
+<text x="533" y="811" class="fg" font-size="16" >Research dataset · Zenodo</text>
+<text x="40" y="837" class="muted" font-size="12" >Code, models and data for computational materials research.</text>
+</svg>

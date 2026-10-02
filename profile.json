@@ -1,0 +1,17 @@
+{
+  "username": "Yong-Q",
+  "tagline": "Porous materials · Classical DFT · Molecular simulation",
+  "intro": "I explore porous materials through classical density functional theory (cDFT), molecular simulation, machine learning, and AI-assisted research workflows.",
+  "keywords": ["Porous materials", "Classical DFT", "Molecular simulation", "AI for Science"],
+  "featured": [
+    {"repo": "Reverse-design-of-porous-materials", "title": "Porous materials design", "category": "MATERIALS DISCOVERY", "summary": "HOF database construction and machine-learning-guided inverse design.", "tags": ["HOF", "Inverse design", "Machine learning"]},
+    {"repo": "Sep-Pilot", "title": "Sep-Pilot", "category": "RESEARCH AUTOMATION", "summary": "An AI research copilot for planning and tracking molecular simulation workflows.", "tags": ["Scientific agents", "Simulation", "HPC"]},
+    {"repo": "String_Vext", "title": "String_Vext", "category": "MOLECULAR TRANSPORT", "summary": "Diffusion pathway optimization and orientation-resolved energy landscapes.", "tags": ["Diffusion", "Energy landscapes", "GPU / CPU"]}
+  ],
+  "resources": [
+    {"label": "Related paper · Chemical Science (2025)", "url": "https://doi.org/10.1039/D5SC04332H"},
+    {"label": "Research dataset · Zenodo", "url": "https://doi.org/10.5281/zenodo.14910258"}
+  ],
+  "exclude": ["Yong-Q", "Yong-Q.github.io"],
+  "recent_limit": 4
+}
