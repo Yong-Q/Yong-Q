@@ -10,7 +10,8 @@
   ],
   "resources": [
     {"label": "Chemical Science (2025)", "url": "https://doi.org/10.1039/D5SC04332H"},
-    {"label": "Zenodo dataset", "url": "https://doi.org/10.5281/zenodo.14910258"}
+    {"label": "Zenodo dataset", "url": "https://doi.org/10.5281/zenodo.14910258"},
+    {"label": "Publications on ResearchGate", "url": "https://www.researchgate.net/profile/Yong-Qiu-8/research"}
   ],
   "exclude": ["Yong-Q", "Yong-Q.github.io"],
   "recent_limit": 3

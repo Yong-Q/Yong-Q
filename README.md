@@ -11,7 +11,7 @@ I work on adsorption and molecular transport in porous materials, using classica
 
 ### Paper & data
 
-[Chemical Science (2025)](https://doi.org/10.1039/D5SC04332H) · [Zenodo dataset](https://doi.org/10.5281/zenodo.14910258)
+[Chemical Science (2025)](https://doi.org/10.1039/D5SC04332H) · [Zenodo dataset](https://doi.org/10.5281/zenodo.14910258) · [Publications on ResearchGate](https://www.researchgate.net/profile/Yong-Qiu-8/research)
 
 <details>
 <summary>Recently updated</summary>

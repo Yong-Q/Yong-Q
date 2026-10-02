@@ -69,6 +69,10 @@
     {
       "label": "Zenodo dataset",
       "url": "https://doi.org/10.5281/zenodo.14910258"
+    },
+    {
+      "label": "Publications on ResearchGate",
+      "url": "https://www.researchgate.net/profile/Yong-Qiu-8/research"
     }
   ],
   "exclude": [
