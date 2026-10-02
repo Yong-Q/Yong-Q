@@ -4,7 +4,7 @@ The profile uses only public repository metadata. No email or popularity counter
 
 - New original, nonempty public repositories appear automatically under Recently updated.
 - Forks, archived repositories and the profile repository are excluded.
-- Featured project descriptions follow the repository Description when set. With an empty Description, profile.json supplies a curated summary.
+- Featured project entries use the short, curated profile_summary in profile.json. Recently updated entries follow the repository Description when set; otherwise a curated summary is used.
 - Edit profile.json to change featured projects, research keywords or verified paper/data links. Publication records are not inferred from repository uploads.
 - Edit README outside PROFILE:START and PROFILE:END to add your own content; the generator preserves it.
 - Automatic refresh runs hourly through GitHub Actions; GitHub can delay scheduled runs. Use Actions → Refresh research profile → Run workflow to refresh manually.

@@ -21,15 +21,16 @@ with sync_playwright() as p:
     assert "classical density functional theory (cDFT)" in page.locator(".intro").inner_text()
     assert "Alex" not in page.locator("body").inner_text()
     assert "@163.com" not in page.locator("body").inner_text()
-    page.screenshot(path=str(ROOT / "preview-desktop.png"), full_page=True)
+    page.screenshot(path=str(ROOT / "preview-natural-desktop.png"), full_page=True)
     page.locator("#theme").click()
     assert page.evaluate("document.documentElement.dataset.theme") == "dark"
-    page.screenshot(path=str(ROOT / "preview-dark.png"), full_page=True)
+    page.screenshot(path=str(ROOT / "preview-natural-dark.png"), full_page=True)
     page.locator("#theme").click()
     page.set_viewport_size({"width": 390, "height": 844})
     assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
-    page.screenshot(path=str(ROOT / "preview-mobile.png"), full_page=True)
-    results.extend(["desktop: 3 cards and cDFT", "dark theme toggle", "mobile 390px: no horizontal overflow"])
+    page.screenshot(path=str(ROOT / "preview-natural-mobile.png"), full_page=True)
+    results.extend(["desktop: 3 project entries and cDFT", "dark theme toggle", "mobile 390px: no horizontal overflow"])
+    page.locator('details summary').click()
 
     # Real browser refresh with a newly published repository and untrusted text.
     new = {"name": "New-research", "description": "<img src=x onerror=alert(1)> | new project", "language": "Python", "size": 10,
@@ -62,7 +63,7 @@ with sync_playwright() as p:
     page.goto(BASE)
     page.wait_for_function("document.querySelector('#status').textContent.startsWith('Live')")
     assert page.locator(".project").count() == 3, "Missing snapshot project must reappear from raw curated config"
-    assert config["featured"][0]["summary"] in page.locator(".project").first.inner_text(), "Cleared API description must restore curated summary"
+    assert config["featured"][0]["profile_summary"] in page.locator(".project").first.inner_text(), "Featured project must retain curated profile summary"
     results.append("direct-file fallback restores missing featured projects and curated summaries")
 
     # Inspect actual SVG layout and generate a panel image for review.

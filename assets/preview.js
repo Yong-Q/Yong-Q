@@ -22,12 +22,11 @@
     currentModel = model;
     document.querySelector('.intro').textContent = model.intro;
     $('keywords').replaceChildren(...model.keywords.map(k => node('span', k)));
-    $('projects').replaceChildren(...model.featured.map((p,i) => {
-      const card = node('a', undefined, 'project'); card.href = projectLink(p.name);
-      const top = node('div', undefined, 'project-top');
-      top.append(node('span', `0${i+1}`, 'project-number'), node('span', '↗', 'project-arrow'));
-      const tags = node('div', undefined, 'tags'); tags.append(...p.tags.map(t => node('span',t)));
-      card.append(top, node('p',p.category,'eyebrow'), node('h3',p.title), node('p',p.summary,'summary'), tags);
+    $('projects').replaceChildren(...model.featured.map(p => {
+      const card = node('li', undefined, 'project');
+      const link = node('a',p.title); link.href = projectLink(p.name);
+      const title = node('strong'); title.append(link);
+      card.append(title, document.createTextNode(' — '), node('span',p.profile_summary || p.summary,'summary'));
       return card;
     }));
     $('resource-links').replaceChildren(...model.resources.map(r => {
@@ -70,6 +69,11 @@
   function updateThemeLabel() { $('theme').textContent = dark() ? 'Light mode ◐' : 'Dark mode ◐'; }
   $('theme').addEventListener('click', () => {document.documentElement.dataset.theme = dark() ? 'light' : 'dark'; updateThemeLabel();});
   $('refresh').addEventListener('click', refresh); updateThemeLabel();
+  if(window.PROFILE_CONFIG && window.PROFILE_INITIAL) {
+    config = window.PROFILE_CONFIG;
+    render(window.PROFILE_INITIAL);
+    $('status').textContent = 'Saved snapshot · connecting…';
+  }
   async function init() {
     try {
       config = await fetchJSON('profile.json');

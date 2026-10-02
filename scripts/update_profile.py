@@ -131,17 +131,17 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.m
 
 
 def render_readme(model, original):
-    rows = [START, '<picture>',
-            '  <source media="(prefers-color-scheme: dark)" srcset="assets/panel-dark.svg">',
-            '  <img src="assets/panel-light.svg" alt="Yong-Q: porous materials, classical DFT, molecular simulation and AI for Science" width="100%">',
-            '</picture>', '', model["intro"], '',
-            ' · '.join(f'[{markdown(p["title"])}]({p["html_url"]})' for p in model["featured"]), '',
-            ' · '.join(f'[{markdown(r["label"])}]({r["url"]})' for r in model["resources"]), '',
-            '### Recently updated', '', '| Project | Focus | Latest code update |', '| :--- | :--- | :--- |']
+    rows = [START, f'## {markdown(model["username"])}', '', model["intro"], '', '### Projects', '']
+    for project in model["featured"]:
+        summary = project.get("profile_summary", project["summary"])
+        rows.append(f'- **[{markdown(project["title"])}]({project["html_url"]})** — {markdown(summary)}')
+    rows.extend(['', '### Paper & data', '',
+                 ' · '.join(f'[{markdown(r["label"])}]({r["url"]})' for r in model["resources"]), '',
+                 '<details>', '<summary>Recently updated</summary>', ''])
     for item in model["recent"]:
         focus = item.get("description") or next((p["summary"] for p in model["featured"] if p["name"] == item["name"]), None) or item.get("language") or "Research code"
-        rows.append(f'| [{markdown(item["name"])}]({item["html_url"]}) | {markdown(focus)} | {(item.get("pushed_at") or "")[:10]} |')
-    rows.extend(['', '<sub>Public repository metadata refreshes hourly. Featured projects are curated; recent projects update automatically.</sub>', END])
+        rows.append(f'- [{markdown(item["name"])}]({item["html_url"]}) · {(item.get("pushed_at") or "")[:10]} — {markdown(focus)}')
+    rows.extend(['', '</details>', END])
     generated = "\n".join(rows)
     if START in original and END in original:
         before, rest = original.split(START, 1)
