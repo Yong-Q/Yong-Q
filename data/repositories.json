@@ -100,16 +100,6 @@
     "size": 5013
   },
   {
-    "name": "c1_cdft",
-    "description": null,
-    "language": "Python",
-    "pushed_at": "2026-10-11T08:02:37Z",
-    "fork": false,
-    "private": false,
-    "archived": false,
-    "size": 96410
-  },
-  {
     "name": "cDFT",
     "description": "cDFT ",
     "language": "C++",
