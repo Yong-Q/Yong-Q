@@ -18,7 +18,7 @@ I work on adsorption and molecular transport in porous materials, using classica
 <details>
 <summary>Recently updated</summary>
 
-- [symmetrix-polar](https://github.com/Yong-Q/symmetrix-polar) · 2026-10-20 — Python
+- [symmetrix-polar](https://github.com/Yong-Q/symmetrix-polar) · 2026-10-21 — Python
 - [String_Vext](https://github.com/Yong-Q/String_Vext) · 2026-10-01 — Diffusion pathway optimization and orientation-resolved energy landscapes.
 - [Sep-Pilot](https://github.com/Yong-Q/Sep-Pilot) · 2026-09-20 — An AI research copilot for planning and tracking molecular simulation workflows.
 
