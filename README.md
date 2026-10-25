@@ -18,9 +18,9 @@ I work on adsorption and molecular transport in porous materials, using classica
 <details>
 <summary>Recently updated</summary>
 
+- [Sep-Pilot](https://github.com/Yong-Q/Sep-Pilot) · 2026-10-25 — An AI research copilot for planning and tracking molecular simulation workflows.
 - [test](https://github.com/Yong-Q/test) · 2026-10-23 — Python
 - [symmetrix-polar](https://github.com/Yong-Q/symmetrix-polar) · 2026-10-23 — Python
-- [Gen_X](https://github.com/Yong-Q/Gen_X) · 2026-10-22 — HTML
 
 </details>
 <!-- PROFILE:END -->
