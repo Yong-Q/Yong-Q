@@ -83,6 +83,13 @@
   "recent_limit": 3,
   "recent": [
     {
+      "name": "DFT",
+      "description": "Code repository",
+      "language": "C++",
+      "pushed_at": "2026-11-03T07:11:27Z",
+      "html_url": "https://github.com/Yong-Q/DFT"
+    },
+    {
       "name": "new",
       "description": null,
       "language": "Python",
@@ -95,13 +102,6 @@
       "language": "Python",
       "pushed_at": "2026-11-03T02:22:04Z",
       "html_url": "https://github.com/Yong-Q/test"
-    },
-    {
-      "name": "symmetrix-polar",
-      "description": null,
-      "language": "Python",
-      "pushed_at": "2026-11-02T05:26:53Z",
-      "html_url": "https://github.com/Yong-Q/symmetrix-polar"
     }
   ],
   "activity_date": "2026-11-03"

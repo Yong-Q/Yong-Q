@@ -18,9 +18,9 @@ I work on adsorption and molecular transport in porous materials, using classica
 <details>
 <summary>Recently updated</summary>
 
+- [DFT](https://github.com/Yong-Q/DFT) · 2026-11-03 — Code repository
 - [new](https://github.com/Yong-Q/new) · 2026-11-03 — Python
 - [test](https://github.com/Yong-Q/test) · 2026-11-03 — Python
-- [symmetrix-polar](https://github.com/Yong-Q/symmetrix-polar) · 2026-11-02 — Python
 
 </details>
 <!-- PROFILE:END -->
